@@ -7,16 +7,21 @@
   <script defer src="./js/clock.js"></script>
   <script defer src="./js/quotes.js"></script>
   <script defer src="./js/background.js"></script>
+  <script defer src="./js/todo.js"></script>
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <h2 id="clock">00:00:00</h2>
   <form class="hidden" id="login-form">
     <input required maxlength="15" type="text" placeholder="what is your name?">
     <input type="submit" value="Log In">
   </form>
   <h1 id="greeting" class="hidden"></h1>
-  <h2 id="clock">00:00:00</h2>
+  <form id="todo-form">
+    <input type="text" placeholder="write a To Do and Press Enter" required>
+  </form>
+  <ul id="todo-list"></ul>
   <div id="quote">
     <span></span>
     <span></span>
