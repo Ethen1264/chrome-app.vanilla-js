@@ -17,4 +17,4 @@ function onGeoError() {
   alert("Can't find you. No weather for you.")
 }
 
-navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)
+navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)   //실행이 잘 되었을 때 동작할 함수와, 실행이 잘 안 되었을 때 동작할 함수를 지정한다

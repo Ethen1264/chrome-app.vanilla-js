@@ -6,7 +6,7 @@ const HIDDEN_CLASSNAME = "hidden"
 const USERNAME_KEY = 'username'
 
 function onLoginSubmit(event) {
-  event.preventDefault()
+  event.preventDefault()          // 페이지의 기본 설정 제거 
   loginForm.classList.add(HIDDEN_CLASSNAME)
   const username = loginInput.value
   localStorage.setItem(USERNAME_KEY, username)
