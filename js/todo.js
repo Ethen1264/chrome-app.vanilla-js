@@ -27,7 +27,7 @@ function paintToDo(newTodo) {
   button.addEventListener("click", deleteToDo)      //❌를 클릭시 삭제됨 (함수 실행)
   li.appendChild(span)                              //li태그의 자식으로 span 태그 넣기
   li.appendChild(button)
-  toDoList.appendChild(li)  //ul 태그에 위에서 만든 li 넣어주기
+  toDoList.appendChild(li)  //ul 태그에 위에서 만든 li 넣어주기  
 }
 
 function handleToDoSubmit(event) {
